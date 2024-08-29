@@ -1,0 +1,8 @@
+package com.inherit.par01_inheritTest.after;
+
+public class Computer {
+	//desktop과 smartPhone의 공통 속성을 추출
+	private String cpu;
+	private int hdd;
+	private int 
+}

@@ -1,0 +1,17 @@
+package com.chap05_date;
+
+import java.util.Date;
+
+public class DateTest {
+
+	public static void main(String[] args) {
+		// Date
+		Date today = new Date();
+		System.out.println(today);
+		
+		Date day1 = new Date(0L);
+		System.out.println(day1);
+		
+	}
+
+}

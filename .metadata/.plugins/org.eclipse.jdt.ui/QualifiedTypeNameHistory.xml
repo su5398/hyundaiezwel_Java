@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="com.test01.MethodTest01"/>
+    <fullyQualifiedTypeName name="com.test01.SwitchTest01"/>
+    <fullyQualifiedTypeName name="com.silsub1.example.Munjae"/>
+    <fullyQualifiedTypeName name="com.silsub1.example.ForWhile"/>
+    <fullyQualifiedTypeName name="com.arrayPractice1.sample.ArraySample"/>
+    <fullyQualifiedTypeName name="java.util.Random"/>
+    <fullyQualifiedTypeName name="com.test01.chap02_class.publicClass.model.PublicClassTest"/>
+    <fullyQualifiedTypeName name="com.silsub1.model.Sample"/>
+    <fullyQualifiedTypeName name="com.test01.chap04_constructor.model.User"/>
+    <fullyQualifiedTypeName name="silsub1.model.vo.Member"/>
+    <fullyQualifiedTypeName name="silsub2.model.vo.Product"/>
+    <fullyQualifiedTypeName name="silsub3.model.vo.Circle"/>
+    <fullyQualifiedTypeName name="silsub4.model.vo.Student"/>
+    <fullyQualifiedTypeName name="java.sql.Date"/>
+    <fullyQualifiedTypeName name="com.inherit.par02_overrideTest.model.vo.Book"/>
+    <fullyQualifiedTypeName name="com.silsub1.book.model.vo.Book"/>
+    <fullyQualifiedTypeName name="com.silsub2.point.model.vo.Point"/>
+    <fullyQualifiedTypeName name="com.silsub2.point.model.vo.Circle"/>
+    <fullyQualifiedTypeName name="com.silsub2.point.model.vo.Rectangle"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="com.poly.silsub1.shape.model.vo.Shape"/>
+    <fullyQualifiedTypeName name="com.poly.silsub1.shape.model.vo.Circle"/>
+    <fullyQualifiedTypeName name="com.poly.silsub1.shape.model.vo.Rectangle"/>
+    <fullyQualifiedTypeName name="com.poly.silsub1.shape.controller.ShapeManager"/>
+    <fullyQualifiedTypeName name="com.poly.silsub2.shape.controller.IShapeManager"/>
+    <fullyQualifiedTypeName name="com.poly.silsub2.shape.model.vo.IShape"/>
+    <fullyQualifiedTypeName name="com.poly.silsub2.shape.model.vo.Circle"/>
+    <fullyQualifiedTypeName name="com.poly.silsub2.shape.model.vo.Rectangle"/>
+    <fullyQualifiedTypeName name="com.poly.silsub1.shape.model.vo.Triangle"/>
+    <fullyQualifiedTypeName name="com.poly.silsub3.shape.controller.ShapeManager"/>
+    <fullyQualifiedTypeName name="java.util.StringTokenizer"/>
+    <fullyQualifiedTypeName name="java.util.Date"/>
+    <fullyQualifiedTypeName name="java.text.SimpleDateFormat"/>
+    <fullyQualifiedTypeName name="java.util.Calendar"/>
+    <fullyQualifiedTypeName name="java.util.GregorianCalendar"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+</qualifiedTypeNameHistroy>

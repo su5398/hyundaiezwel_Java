@@ -1,0 +1,24 @@
+package com.poly.test06;
+
+public class MyProfile extends Profile implements Display, Job{
+	
+	private String loc;
+	
+	public MyProfile() {}
+	
+	public MyProfile(String name, String phone) {
+		
+		
+	}
+
+
+	@Override
+	public void jobLoc(String loc) {
+		
+	}
+	
+	@Override
+	public void display() {
+		
+	}
+}

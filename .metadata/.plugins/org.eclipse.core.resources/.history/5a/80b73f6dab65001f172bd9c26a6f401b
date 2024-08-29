@@ -1,0 +1,27 @@
+package com.chap02_StringBuffer_StringBuilder;
+
+public class StringTest {
+
+	public static void main(String[] args) {
+		test1();
+
+	}
+	
+	//StringBuffer & StringBuilder
+	//mutable 변경가능
+	//변경과 저장을 위한 메모리 공간을 내부에 지닌다. 기본크기는 16개문자
+	
+	public static void test1(){
+		StringBuffer sbf = new StringBuffer("안녕! ");
+		System.out.println(sbf);
+		
+		String str = "안녕! ";
+		System.out.println("str: "+str+", 주소: "+System.identityHashCode(str));
+		
+		str += "반가워";
+		System.out.println("str 수정 후 : "+str+", 주소: "+System.identityHashCode(str));
+		
+		System.out.println("sbf: "+sbf+", 주소: "+System.identityHashCode(sbf));
+		
+	}
+}
