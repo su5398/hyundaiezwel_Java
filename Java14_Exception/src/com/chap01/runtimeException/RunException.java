@@ -7,7 +7,8 @@ public class RunException {
 	
 	public static void main(String[] args) {
 		RunException re = new RunException();
-		re.arithEx();
+		//re.arithEx();
+		re.classAndArrayAndNullEx();
 	}
 	
 	//ArithmeticException인 경우
@@ -42,6 +43,33 @@ public class RunException {
 			e.printStackTrace();
 			System.out.println(e.getMessage());
 		}
-		//test
+		
+		
 	}
+	
+	public void classAndArrayAndNullEx() {
+		//ClassCastException
+		/*
+		Object obj = 'a';
+		System.out.println(obj);
+		String str = (String)obj;
+		System.out.println(str.length());
+		*/
+		
+		
+		//ArrayIndexOutOfBoundsException
+		/*
+		int[] arr = new int[2];
+		arr[0] = 1;
+		arr[1] = 2;
+		
+		arr[2] = 3;
+		System.out.println("출력문!!");
+		*/
+		
+		//NullPointerException
+		String str = null;
+		str.length();
+	}
+	
 }
