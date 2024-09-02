@@ -1,12 +1,19 @@
 package com.chap04_addStream.part04_objectStream.model.dto;
 
-public class Member {
+import java.io.Serializable;
+
+public class Member implements Serializable{
+	
+	private static final long serialVersionUID = 1L;
+	
 	private String userId;
 	private String userPwd;
 	private String userName;
 	private int age;
 	private char gender;
 	private double point;
+	
+	private int grade;
 	
 	public Member() {
 		super();

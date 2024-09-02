@@ -1,8 +1,10 @@
 package com.chap04_addStream.part04_objectStream.model.dao;
 
+import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.IOException;
+import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
 
 import com.chap04_addStream.part04_objectStream.model.dto.Member;
@@ -28,6 +30,42 @@ public class TestObject {
 			e.printStackTrace();
 		} catch (IOException e) {
 			e.printStackTrace();
+		} finally {
+			try {
+				objOut.close();
+			} catch(IOException e) {
+				e.printStackTrace();
+			}
 		}
+	}
+	
+	
+	public void input() {
+		Member[] mar = new Member[3];
+		
+		ObjectInputStream objIn = null;
+		
+		try {
+			objIn = new ObjectInputStream(new FileInputStream("member.txt"));
+		
+			for(int i=0; i<mar.length; i++) {
+				mar[i] = (Member)objIn.readObject();
+			}
+		} catch (FileNotFoundException e) {
+			e.printStackTrace();
+		} catch (IOException e) {
+			e.printStackTrace();
+		} catch (ClassNotFoundException e) {
+			e.printStackTrace();
+		}finally {
+			try {
+				objIn.close();
+			} catch (IOException e) {
+				e.printStackTrace();
+			}
+		}
+		
+		for(Member m:mar)
+			System.out.println(m);
 	}
 }
