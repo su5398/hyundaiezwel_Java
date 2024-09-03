@@ -72,5 +72,6 @@ public class ArrayListTest {
 		System.out.println("list 정렬: "+alist);
 		
 		
+		
 	}
 }
