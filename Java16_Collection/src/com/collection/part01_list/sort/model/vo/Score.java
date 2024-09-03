@@ -1,5 +1,7 @@
 package com.collection.part01_list.sort.model.vo;
 
+import java.util.Objects;
+
 public class Score implements Comparable<Score>{
 	private String name;
 	private int score;
@@ -52,6 +54,23 @@ public class Score implements Comparable<Score>{
 		
 		//만약 name 내림차순 정렬 하고싶다면? 음수를 곱한다.
 		//return -name.compareTo(otherName);
+	}
+
+	@Override
+	public int hashCode() {
+		return Objects.hash(name, score);
+	}
+
+	@Override
+	public boolean equals(Object obj) {
+		if (this == obj)
+			return true;
+		if (obj == null)
+			return false;
+		if (getClass() != obj.getClass())
+			return false;
+		Score other = (Score) obj;
+		return Objects.equals(name, other.name) && score == other.score;
 	} 
 	
 }
