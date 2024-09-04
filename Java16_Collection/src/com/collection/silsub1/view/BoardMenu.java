@@ -32,10 +32,10 @@ public class BoardMenu {
 			case 1: writeBoard();break;
 			case 2: displayAll();break;
 			case 3:	displayBoard();break;
-			case 4:
-			case 5:
-			case 6:
-			case 7:
+			case 4: updateTitle();break;
+			case 5: updateContent();break;
+			case 6: deleteBoard();break;
+			case 7: searchBoard();break;
 			case 0: System.out.println("프로그램 종료!");return;
 			}
 		}
@@ -79,5 +79,66 @@ public class BoardMenu {
 		
 	}
 	
+	public void updateTitle() {
+		System.out.print("수정할 글 번호:");
+		int no = sc.nextInt();
+		sc.nextLine();
+		
+		BoardDto board = bc.displayBoard(no);
+		if(board == null) {
+			System.out.println("조회된 글이 없습니다.");
+		}else {
+			System.out.print("변경할 제목: ");
+			String title = sc.nextLine();
+			
+			bc.updateTitle(no, title);
+		}
+		
+	}
 	
+	public void updateContent() {
+		System.out.print("수정할 글 번호:");
+		int no = sc.nextInt();
+		sc.nextLine();
+		
+		BoardDto board = bc.displayBoard(no);
+		if(board == null) {
+			System.out.println("조회된 글이 없습니다.");
+		}else {
+			System.out.print("변경할 내용: ");
+			String content = sc.nextLine();
+			
+			bc.updateContent(no, content);
+		}
+	}
+
+	public void deleteBoard() {
+		System.out.print("삭제할 글번호: ");
+		int no = sc.nextInt();
+		sc.nextLine();
+		
+		if(bc.displayBoard(no) == null) {
+			System.out.println("조회된 글이 없습니다.");
+		}else {
+			bc.deleteBoard(no);
+			System.out.println(no+"번 글이 삭제되었습니다.");
+		}
+		
+		
+	}
+
+	public void searchBoard() {
+		System.out.print("검색할 제목: ");
+		String title = sc.nextLine();
+		
+		ArrayList<BoardDto> searchList = bc.searchBoard(title);
+		
+		if(searchList.size() == 0) {
+			System.out.println("검색 결과가 없습니다.");
+		}else {
+			for(BoardDto dto : searchList) {
+				System.out.println(dto);
+			}
+		}
+	}
 }

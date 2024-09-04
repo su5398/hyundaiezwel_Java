@@ -26,16 +26,16 @@ public class BoardController {
 		return dao.displayBoard(no);
 	}
 	public void updateTitle(int no, String title) {
-		
+		dao.updateTitle(no, title);
 	}
 	public void updateContent(int no, String content) {
-		
+		dao.updateContent(no, content);
 	}
 	public void deleteBoard(int no) {
-		
+		dao.deleteBoard(no);
 	}
 	public ArrayList<BoardDto> searchBoard(String title){
-		return null;
+		return dao.searchBoard(title);
 	}
 	
 	

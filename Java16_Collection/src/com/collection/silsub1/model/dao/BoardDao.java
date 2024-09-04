@@ -43,18 +43,42 @@ public class BoardDao {
 	//[3]글 제목 수정
 	public void updateTitle(int no, String title) {
 		
+		for(int i=0; i<list.size(); i++) {
+			if(list.get(i).getNo() == no) {
+				list.get(i).setTitle(title);
+				break;
+			}
+		}
 	}
 	//[3]글 내용 수정
 	public void updateContent(int no, String content) {
-		
+		for(int i=0; i<list.size(); i++) {
+			if(list.get(i).getNo() == no) {
+				list.get(i).setContent(content);
+				break;
+			}
+		}
 	}
 	//[4]글 삭제
 	public void deleteBoard(int no) {
-		
+		for(int i=0; i<list.size(); i++) {
+			if(list.get(i).getNo() == no) {
+				list.remove(i);
+				break;
+			}
+		}
 	}
 	//[5]글 검색
 	public ArrayList<BoardDto> searchBoard(String title){
-		return null;
+		ArrayList<BoardDto> searchList = new ArrayList<>();
+		
+		for(int i=0; i<list.size(); i++) {
+			if(list.get(i).getTitle().contains(title)) {
+				searchList.add(list.get(i));
+			}
+		}
+		
+		return searchList;
 	}
 	
 }
