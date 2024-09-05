@@ -1,13 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="com.inherit.par02_overrideTest.model.vo.Book"/>
-    <fullyQualifiedTypeName name="com.silsub1.book.model.vo.Book"/>
-    <fullyQualifiedTypeName name="com.silsub2.point.model.vo.Point"/>
-    <fullyQualifiedTypeName name="com.silsub2.point.model.vo.Circle"/>
-    <fullyQualifiedTypeName name="com.silsub2.point.model.vo.Rectangle"/>
-    <fullyQualifiedTypeName name="java.lang.System"/>
-    <fullyQualifiedTypeName name="com.poly.silsub1.shape.model.vo.Shape"/>
-    <fullyQualifiedTypeName name="com.poly.silsub1.shape.model.vo.Circle"/>
     <fullyQualifiedTypeName name="com.poly.silsub1.shape.model.vo.Rectangle"/>
     <fullyQualifiedTypeName name="com.poly.silsub1.shape.controller.ShapeManager"/>
     <fullyQualifiedTypeName name="com.poly.silsub2.shape.controller.IShapeManager"/>
@@ -22,11 +14,9 @@
     <fullyQualifiedTypeName name="java.util.GregorianCalendar"/>
     <fullyQualifiedTypeName name="java.io.FileNotFoundException"/>
     <fullyQualifiedTypeName name="java.io.File"/>
-    <fullyQualifiedTypeName name="java.io.InputStreamReader"/>
     <fullyQualifiedTypeName name="java.io.OutputStreamWriter"/>
     <fullyQualifiedTypeName name="java.io.BufferedWriter"/>
     <fullyQualifiedTypeName name="java.io.FileWriter"/>
-    <fullyQualifiedTypeName name="java.io.BufferedReader"/>
     <fullyQualifiedTypeName name="java.io.FileReader"/>
     <fullyQualifiedTypeName name="java.io.DataOutput"/>
     <fullyQualifiedTypeName name="java.io.DataInputStream"/>
@@ -36,7 +26,6 @@
     <fullyQualifiedTypeName name="java.io.ObjectOutputStream"/>
     <fullyQualifiedTypeName name="java.io.Serializable"/>
     <fullyQualifiedTypeName name="java.io.ObjectInputStream"/>
-    <fullyQualifiedTypeName name="java.io.IOException"/>
     <fullyQualifiedTypeName name="com.chap04_addStream.part04_objectStream.model.dao.TestObject"/>
     <fullyQualifiedTypeName name="java.util.Collections"/>
     <fullyQualifiedTypeName name="com.collection.part01_list.sort.controller.ScoreController"/>
@@ -55,9 +44,20 @@
     <fullyQualifiedTypeName name="java.util.Iterator"/>
     <fullyQualifiedTypeName name="com.collection.silsub1.model.dao.BoardDao"/>
     <fullyQualifiedTypeName name="com.collection.silsub1.controller.BoardController"/>
-    <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="com.collection.silsub1.view.BoardMenu"/>
     <fullyQualifiedTypeName name="com.collection.silsub1.model.dto.BoardDto"/>
     <fullyQualifiedTypeName name="java.util.Date"/>
     <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="java.net.SocketException"/>
+    <fullyQualifiedTypeName name="java.net.InetAddress"/>
+    <fullyQualifiedTypeName name="java.net.DatagramSocket"/>
+    <fullyQualifiedTypeName name="java.net.DatagramPacket"/>
+    <fullyQualifiedTypeName name="java.net.ServerSocket"/>
+    <fullyQualifiedTypeName name="java.net.Socket"/>
+    <fullyQualifiedTypeName name="java.io.PrintWriter"/>
+    <fullyQualifiedTypeName name="java.io.BufferedReader"/>
+    <fullyQualifiedTypeName name="java.net.UnknownHostException"/>
+    <fullyQualifiedTypeName name="java.io.InputStreamReader"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="java.io.IOException"/>
 </qualifiedTypeNameHistroy>
