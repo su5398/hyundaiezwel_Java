@@ -75,7 +75,7 @@ public class ArrayTest01 {
 		System.out.println("darr의 길이: "+darr.length);
 		
 		
-		//한번 지정한 벼열의 크기는 변경을 못한다.
+		//한번 지정한 배열의 크기는 변경을 못한다.
 		darr = new double[30];//배열의 사이즈 변경이 아닌, 새로운 배열을 생성하여 주소값을 덮어 씌운거다.
 		
 		System.out.println("수정 후 darr의 hashcode: "+darr.hashCode());
